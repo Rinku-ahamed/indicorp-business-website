@@ -15,7 +15,7 @@ const WhyChoose = () => {
             "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
           }
         />
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
           <WhyChooseCard image={Img1} text="3K" subText="CASES DONE" />
           <WhyChooseCard image={Img2} text="45" subText="HAPPY CUSTOMERS" />
           <WhyChooseCard image={Img3} text="12+" subText="AWARD WINNING" />

@@ -27,7 +27,7 @@ const Header = () => {
               Your Logo
             </Link>
           </div>
-          <div>{navMenu}</div>
+          <div className="hidden md:block">{navMenu}</div>
           <div>
             <button className="bg-[#537DC3] text-white py-2 px-8 rounded-[100px] font-semibold hover:bg-[#2290C7] duration-200">
               Contact

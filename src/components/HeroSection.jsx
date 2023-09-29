@@ -11,7 +11,7 @@ const HeroSection = () => {
       }}
     >
       <Container>
-        <h2 className="text-[#23283E] text-[60px] font-bold leading-[70px] mb-6">
+        <h2 className="text-[#23283E] text-[40px] md:text-[60px] font-bold sm:leading-[70px] mb-6">
           EMPOWER <br /> YOUR BUSINESS
         </h2>
         <p className="text-[#737373] text-[21px] mb-6">
