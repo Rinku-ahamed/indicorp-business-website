@@ -2,7 +2,7 @@
 const StartCard = ({ image, title, description, style }) => {
   if (style) {
     return (
-      <div className="text-white px-7 py-9 bg-[#537DC3] rounded-md shadow-lg">
+      <div className="text-white px-7 py-9 bg-[#008A8C] rounded-md shadow-lg">
         <img src={image} alt="" />
         <h3 className="text-[24px] md:text-[27px] text-white font-bold py-3">
           Digital Marketing

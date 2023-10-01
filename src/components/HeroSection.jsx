@@ -19,7 +19,7 @@ const HeroSection = () => {
           scale.
         </p>
         <div className="flex gap-3 items-center">
-          <button className="bg-[#537DC3] text-white py-3 px-6 rounded-[100px] font-semibold hover:bg-[#2290C7] duration-200 border">
+          <button className="bg-[#008A8C] text-white py-3 px-6 rounded-[100px] font-semibold hover:bg-[#2290C7] duration-200 border">
             Get Quote Now
           </button>
           <button className=" text-[#2290C7] py-[10px] px-8 rounded-[100px] font-semibold hover:bg-[#2290C7] hover:text-white duration-200 border border-[#2290C7]">
