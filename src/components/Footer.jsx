@@ -12,7 +12,7 @@ const Footer = () => {
       {/* Footer widget */}
       <section className="bg-[#008A8C] py-9 mt-8">
         <Container>
-          <div className="grid grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <h3 className="text-white text-2xl mb-5">Company Info</h3>
               <ul className="text-slate-200 flex flex-col gap-3 text-[17px] font-semibold">
@@ -71,7 +71,7 @@ const Footer = () => {
       </section>
       {/* Bottom Footer copyright */}
       <Container>
-        <div className="flex justify-between items-center py-3">
+        <div className="sm:flex justify-between items-center py-3">
           <div>©{new Date().getFullYear()} All Right Reserved</div>
           <div>
             <img src={Social} alt="" />

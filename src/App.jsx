@@ -5,6 +5,7 @@ import Stats from "./components/Stats";
 import WhyChoose from "./components/WhyChoose";
 import Advice from "./components/Advice";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <WhyChoose />
       <Advice />
       <Services />
+      <Contact />
       <Footer />
     </>
   );
